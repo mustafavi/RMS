@@ -8,7 +8,7 @@ namespace RMS.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Integrated Security=SSPI;Data Source=DESKTOP-ST45782\SQLEXPRESS;initial catalog = RMS");
+            optionsBuilder.UseSqlServer(@"Integrated Security=SSPI;Data Source=;initial catalog = RMS");
         }
 
 
